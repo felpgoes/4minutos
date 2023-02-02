@@ -1,5 +1,5 @@
 {
-    "manifest_version": 1,
+    "manifest_version": 2,
     "name": "4 Minutos",
     "description": "Extensão do Chrome para alterar imagens para o jogo do Brasil x Croacia.",
     "version": "1.0",

@@ -1,11 +1,11 @@
 (function () {
-    //nCage 
+    //fourMinutes 
     var main = function ($) {
 
-        var self = $.nCage = new function () { };
+        var self = $.fourMinutes = new function () { };
 
         $.extend(self, {
-            nCageImgs: [
+            fourMinutesImgs: [
                 'https://img.r7.com/images/croacia-x-brasil-copa-do-mundo-09122022145122740?dimensions=771x420&no_crop=true',
                 'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt7d847935bd3ad1ed/639351f602b9015c9dff3421/GettyImages-1447951636.jpg',
                 'https://img.r7.com/images/croacia-x-brasil-copa-do-mundo-09122022145013908?dimensions=771x420&&amp;&amp;resize=771x420&amp;crop=1280x697+0+101&amp;&amp;resize=771x420&amp;crop=1280x697+0+101',
@@ -53,7 +53,7 @@
 
         //Run on jQuery ready
         $(function () {
-            self.handleImages(self.nCageImgs, 3000);
+            self.handleImages(self.fourMinutesImgs, 3000);
         });
     };
 
